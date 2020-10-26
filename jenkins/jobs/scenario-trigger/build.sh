@@ -80,8 +80,9 @@ elif [ ${REM} -eq 1 ]; then
     export ESX_BUILD_ID="ob-13932383"
     export VSPHERE_VERSION="6.5"
 else
-    export VC_BUILD_ID="ob-15952498"
-    export ESX_BUILD_ID="ob-15843807"
+    # 7.0u1
+    export VC_BUILD_ID="ob-16860138"
+    export ESX_BUILD_ID="ob-16850804"
     export VSPHERE_VERSION="7.0"
 fi
 echo "VC build: ${VC_BUILD_ID}"
